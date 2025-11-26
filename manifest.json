@@ -1,0 +1,17 @@
+{
+    "name": "DDGSearcher",
+    "version": "1.1.0",
+    "description": "This extension searches in duckduckgo instead",
+    "manifest_version": 3,
+    "author": "yaboi",
+    "icons": {
+        "128": "duckIcon.png"
+    },
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "DDGSearcher"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
